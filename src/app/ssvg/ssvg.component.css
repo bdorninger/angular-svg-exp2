@@ -1,0 +1,65 @@
+/* .svg-container {
+  background-color: blueviolet;
+} */
+
+/*.svg-container.active svg {
+  stroke: #00ff00;
+  fill: #ff5f00;  
+}
+
+.svg-container.inactive svg {
+  fill: #00ff00;
+  stroke: #ff5f00;
+} */
+
+ssvg.active svg {
+  stroke: #00ff00;
+  fill: #ff5f00;
+  stroke-width: 2px;
+}
+
+ssvg.inactive svg {
+  fill: #cccccc;
+  stroke: #3a3a3a;
+  stroke-width: 2px;
+}
+
+ssvg.inactive img {
+  filter: sepia(0.9) contrast(0.3);
+}
+/*
+.selection.active .wrap-svg {
+  stroke: none;
+  fill: none;
+}
+
+.selection.inactive .wrap-svg {
+  stroke: none;
+  fill: none;
+}
+*/
+.selection.active .wrap-svg {
+  stroke: none;
+  fill: black;
+  background-color: white;
+}
+
+.selection.inactive .wrap-svg {
+  stroke: none;
+  fill: white;
+  background-color: black;
+}
+/*
+.selection.active .inner-svg {
+  stroke: none;
+  fill: black;
+  background-color: white;
+}
+
+.selection.inactive .inner-svg {
+  stroke: none;
+  fill: white;
+  background-color: black;
+}
+
+*/
